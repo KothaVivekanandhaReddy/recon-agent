@@ -1,0 +1,12 @@
+txn_id,source,reason
+TXN75795367,bank,"Transaction IDs do not match (TXN75795367 vs TXN29780863), suggesting possible misrouting or duplication of payment."
+TXN59542590,bank,No candidate found within 6-day / 3% tolerance in bank.
+TXN32641162,bank,No candidate found within 6-day / 3% tolerance in bank.
+TXN33036427,bank,No candidate found within 6-day / 3% tolerance in bank.
+TXN41762098,bank,No candidate found within 6-day / 3% tolerance in bank.
+TXN42412000,bank,No candidate found within 6-day / 3% tolerance in bank.
+TXN80239732,ledger,No candidate found within 6-day / 3% tolerance in ledger.
+TXN12834620,ledger,Different date (2026-08-16 vs 2026-08-17) and different merchant (Harbor Print vs Grovepoint Labs) indicate distinct transactions.
+TXN99178674,ledger,No candidate found within 6-day / 3% tolerance in ledger.
+TXN61949762,ledger,No candidate found within 6-day / 3% tolerance in ledger.
+TXN43412602,ledger,"The transaction amounts differ by 69.61, indicating a possible discrepancy in the records. The dates also differ by one day, but the merchant names are the same."

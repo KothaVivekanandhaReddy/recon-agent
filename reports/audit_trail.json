@@ -1,0 +1,976 @@
+[
+  {
+    "txn_id": "TXN74615659",
+    "source": "gateway",
+    "stage": "duplicate_detected",
+    "confidence": 1.0,
+    "rationale": "Same transaction ID appeared more than once in the gateway export \u2014 treated as a duplicate fire, not a new transaction."
+  },
+  {
+    "txn_id": "TXN62369736",
+    "source": "gateway",
+    "stage": "duplicate_detected",
+    "confidence": 1.0,
+    "rationale": "Same transaction ID appeared more than once in the gateway export \u2014 treated as a duplicate fire, not a new transaction."
+  },
+  {
+    "txn_id": "TXN18724467",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN18724467"
+  },
+  {
+    "txn_id": "TXN62851306",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN62851306"
+  },
+  {
+    "txn_id": "TXN75795367",
+    "source": "bank",
+    "stage": "llm_rejected",
+    "confidence": 0.23,
+    "rationale": "Transaction IDs do not match (TXN75795367 vs TXN29780863), suggesting possible misrouting or duplication of payment.",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN56198137",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN56198137"
+  },
+  {
+    "txn_id": "TXN35885502",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35885502"
+  },
+  {
+    "txn_id": "TXN87706118",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN87706118"
+  },
+  {
+    "txn_id": "TXN79531597",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN79531597"
+  },
+  {
+    "txn_id": "TXN59542590",
+    "source": "bank",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in bank."
+  },
+  {
+    "txn_id": "TXN55408515",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN55408515"
+  },
+  {
+    "txn_id": "TXN56640215",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN56640215"
+  },
+  {
+    "txn_id": "TXN86000721",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN86000721"
+  },
+  {
+    "txn_id": "TXN15127434",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN15127434"
+  },
+  {
+    "txn_id": "TXN22799492",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN22799492"
+  },
+  {
+    "txn_id": "TXN52975263",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN52975263"
+  },
+  {
+    "txn_id": "TXN29838397",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN29838397"
+  },
+  {
+    "txn_id": "TXN80895189",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN80895189"
+  },
+  {
+    "txn_id": "TXN32641162",
+    "source": "bank",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in bank."
+  },
+  {
+    "txn_id": "TXN80239732",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN80239732"
+  },
+  {
+    "txn_id": "TXN38649270",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN38649270"
+  },
+  {
+    "txn_id": "TXN76833286",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN76833286"
+  },
+  {
+    "txn_id": "TXN34391115",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN34391115"
+  },
+  {
+    "txn_id": "TXN93251810",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN93251810"
+  },
+  {
+    "txn_id": "TXN18029411",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN18029411"
+  },
+  {
+    "txn_id": "TXN85857323",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN85857323"
+  },
+  {
+    "txn_id": "TXN33036427",
+    "source": "bank",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in bank."
+  },
+  {
+    "txn_id": "TXN43121380",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN43121380"
+  },
+  {
+    "txn_id": "TXN33338833",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN33338833"
+  },
+  {
+    "txn_id": "TXN28428700",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN28428700"
+  },
+  {
+    "txn_id": "TXN17356111",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN17356111"
+  },
+  {
+    "txn_id": "TXN81903989",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN81903989"
+  },
+  {
+    "txn_id": "TXN41762098",
+    "source": "bank",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in bank."
+  },
+  {
+    "txn_id": "TXN43320645",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN43320645"
+  },
+  {
+    "txn_id": "TXN12834620",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN12834620"
+  },
+  {
+    "txn_id": "TXN62369736",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN62369736"
+  },
+  {
+    "txn_id": "TXN29763572",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN29763572"
+  },
+  {
+    "txn_id": "TXN77588951",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN77588951"
+  },
+  {
+    "txn_id": "TXN67351709",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN67351709"
+  },
+  {
+    "txn_id": "TXN99178674",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN99178674"
+  },
+  {
+    "txn_id": "TXN93946424",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN93946424"
+  },
+  {
+    "txn_id": "TXN35955092",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35955092"
+  },
+  {
+    "txn_id": "TXN23784881",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN23784881"
+  },
+  {
+    "txn_id": "TXN21817597",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN21817597"
+  },
+  {
+    "txn_id": "TXN84673173",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN84673173"
+  },
+  {
+    "txn_id": "TXN35967771",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35967771"
+  },
+  {
+    "txn_id": "TXN74615659",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN74615659"
+  },
+  {
+    "txn_id": "TXN69092920",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN69092920"
+  },
+  {
+    "txn_id": "TXN86327851",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN86327851"
+  },
+  {
+    "txn_id": "TXN20500417",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN20500417"
+  },
+  {
+    "txn_id": "TXN35230696",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35230696"
+  },
+  {
+    "txn_id": "TXN67826251",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN67826251"
+  },
+  {
+    "txn_id": "TXN29780863",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN29780863"
+  },
+  {
+    "txn_id": "TXN61949762",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN61949762"
+  },
+  {
+    "txn_id": "TXN43412602",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN43412602"
+  },
+  {
+    "txn_id": "TXN08076457",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN08076457"
+  },
+  {
+    "txn_id": "TXN61224792",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN61224792"
+  },
+  {
+    "txn_id": "TXN42412000",
+    "source": "bank",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in bank."
+  },
+  {
+    "txn_id": "TXN21186703",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN21186703"
+  },
+  {
+    "txn_id": "TXN06305519",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN06305519"
+  },
+  {
+    "txn_id": "TXN41281432",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN41281432"
+  },
+  {
+    "txn_id": "TXN57146699",
+    "source": "bank",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN57146699"
+  },
+  {
+    "txn_id": "TXN18724467",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN18724467"
+  },
+  {
+    "txn_id": "TXN62851306",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN62851306"
+  },
+  {
+    "txn_id": "TXN75795367",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN75795367"
+  },
+  {
+    "txn_id": "TXN56198137",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN56198137"
+  },
+  {
+    "txn_id": "TXN35885502",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35885502"
+  },
+  {
+    "txn_id": "TXN87706118",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN87706118"
+  },
+  {
+    "txn_id": "TXN79531597",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN79531597"
+  },
+  {
+    "txn_id": "TXN59542590",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN59542590"
+  },
+  {
+    "txn_id": "TXN55408515",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN55408515"
+  },
+  {
+    "txn_id": "TXN56640215",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.93,
+    "rationale": "High id_similarity score (0.909) and identical amount and merchant information suggest a strong match between the Gateway and Candidate records, although minor discrepancies in the date format and record IDs are noted.",
+    "matched_key": "TXN56641215",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN86000721",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN86000721"
+  },
+  {
+    "txn_id": "TXN15127434",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN15127434"
+  },
+  {
+    "txn_id": "TXN22799492",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN22799492"
+  },
+  {
+    "txn_id": "TXN52975263",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN52975263"
+  },
+  {
+    "txn_id": "TXN29838397",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN29838397"
+  },
+  {
+    "txn_id": "TXN80895189",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN80895189"
+  },
+  {
+    "txn_id": "TXN32641162",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN32641162"
+  },
+  {
+    "txn_id": "TXN80239732",
+    "source": "ledger",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in ledger."
+  },
+  {
+    "txn_id": "TXN38649270",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN38649270"
+  },
+  {
+    "txn_id": "TXN76833286",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN76833286"
+  },
+  {
+    "txn_id": "TXN34391115",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN34391115"
+  },
+  {
+    "txn_id": "TXN93251810",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN93251810"
+  },
+  {
+    "txn_id": "TXN18029411",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN18029411"
+  },
+  {
+    "txn_id": "TXN85857323",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.9,
+    "rationale": "The txn_id, date, merchant, and net_amount match between the Gateway record and the Candidate (ledger) record indicate a strong likelihood of referring to the same transaction. The id_similarity of 0.909 further supports this conclusion, although it is not a perfect match, suggesting a high degree of similarity.",
+    "matched_key": "TXN85857823",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN33036427",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN33036427"
+  },
+  {
+    "txn_id": "TXN43121380",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN43121380"
+  },
+  {
+    "txn_id": "TXN33338833",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN33338833"
+  },
+  {
+    "txn_id": "TXN28428700",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN28428700"
+  },
+  {
+    "txn_id": "TXN17356111",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.9,
+    "rationale": "High ID similarity (0.909) and matching transactional data (txn_id, merchant, and amount) between Gateway record and Candidate (ledger) record suggest that they refer to the same transaction.",
+    "matched_key": "TXN17352111",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN81903989",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN81903989"
+  },
+  {
+    "txn_id": "TXN41762098",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN41762098"
+  },
+  {
+    "txn_id": "TXN43320645",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN43320645"
+  },
+  {
+    "txn_id": "TXN12834620",
+    "source": "ledger",
+    "stage": "llm_rejected",
+    "confidence": 0.2,
+    "rationale": "Different date (2026-08-16 vs 2026-08-17) and different merchant (Harbor Print vs Grovepoint Labs) indicate distinct transactions.",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN62369736",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN62369736"
+  },
+  {
+    "txn_id": "TXN29763572",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN29763572"
+  },
+  {
+    "txn_id": "TXN77588951",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.92,
+    "rationale": "High similarity between txn_id and entry_id, date and posted_date are also closely matched, indicating a high degree of similarity between the two records.",
+    "matched_key": "TXN87588951",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN67351709",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN67351709"
+  },
+  {
+    "txn_id": "TXN99178674",
+    "source": "ledger",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in ledger."
+  },
+  {
+    "txn_id": "TXN93946424",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN93946424"
+  },
+  {
+    "txn_id": "TXN35955092",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35955092"
+  },
+  {
+    "txn_id": "TXN23784881",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.95,
+    "rationale": "Both records have the same merchant name and match the same transaction amount. Date difference is 1 day, allowing for some minor discrepancy.",
+    "matched_key": "TXN23784831",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN21817597",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN21817597"
+  },
+  {
+    "txn_id": "TXN84673173",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN84673173"
+  },
+  {
+    "txn_id": "TXN35967771",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35967771"
+  },
+  {
+    "txn_id": "TXN74615659",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN74615659"
+  },
+  {
+    "txn_id": "TXN69092920",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.93,
+    "rationale": "Both records have identical transaction IDs, dates, merchants, and amounts, indicating a high likelihood of referring to the same underlying transaction. The similarity in entry IDs also suggests a direct mapping between the two records.",
+    "matched_key": "TXN69292920",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN86327851",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN86327851"
+  },
+  {
+    "txn_id": "TXN20500417",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN20500417"
+  },
+  {
+    "txn_id": "TXN35230696",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN35230696"
+  },
+  {
+    "txn_id": "TXN67826251",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN67826251"
+  },
+  {
+    "txn_id": "TXN29780863",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.909,
+    "rationale": "The txn_id and merchant in the Gateway record match the entry_id and party in the Candidate record, indicating a high degree of similarity between the two transactions. The only minor discrepancy is the date, but the date_diff_days signal indicates a difference of 0 days, suggesting that the transactions may have occurred on the same day. The id_similarity signal also supports this conclusion, indicating a strong match between the two records.",
+    "matched_key": "TXN29710863",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN61949762",
+    "source": "ledger",
+    "stage": "unresolved",
+    "confidence": 0.0,
+    "rationale": "No candidate found within 6-day / 3% tolerance in ledger."
+  },
+  {
+    "txn_id": "TXN43412602",
+    "source": "ledger",
+    "stage": "llm_rejected",
+    "confidence": 0.32,
+    "rationale": "The transaction amounts differ by 69.61, indicating a possible discrepancy in the records. The dates also differ by one day, but the merchant names are the same.",
+    "resolved_by": "llama3.2"
+  },
+  {
+    "txn_id": "TXN08076457",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN08076457"
+  },
+  {
+    "txn_id": "TXN61224792",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN61224792"
+  },
+  {
+    "txn_id": "TXN42412000",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN42412000"
+  },
+  {
+    "txn_id": "TXN21186703",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN21186703"
+  },
+  {
+    "txn_id": "TXN06305519",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN06305519"
+  },
+  {
+    "txn_id": "TXN41281432",
+    "source": "ledger",
+    "stage": "exact",
+    "confidence": 1.0,
+    "rationale": "Exact ID match.",
+    "matched_key": "TXN41281432"
+  },
+  {
+    "txn_id": "TXN57146699",
+    "source": "ledger",
+    "stage": "llm_resolved",
+    "confidence": 0.92,
+    "rationale": "High id similarity and matching transactional data indicate the Gateway record and Candidate (ledger) record refer to the same underlying transaction.",
+    "matched_key": "TXN57146619",
+    "resolved_by": "llama3.2"
+  }
+]
